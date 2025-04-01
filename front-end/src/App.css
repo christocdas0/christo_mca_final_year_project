@@ -1,0 +1,46 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+body {
+  /* background-color: #fff; */
+  box-sizing: border-box;
+  width: 99vw;
+  height: 97vh;
+  margin: 0px;
+}
+
+#root {
+  max-width: 1280px;
+  /* margin: 0 auto; */
+  /* padding: 0 2rem; */
+  /* text-align: center; */
+}
+
+/* For Webkit Browsers (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+  width: 8px; /* Reduce scrollbar width */
+  height: 8px; /* For horizontal scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Track background color */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; /* Scroll thumb color */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Darker shade on hover */
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #888 #f1f1f1; /* Thumb and track colors */
+}
